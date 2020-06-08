@@ -1,0 +1,28 @@
+{
+  "name": "Ecoleta",
+  "version": "1.0.0",
+  "description": "Projekt durchgeführt während Rocketseats NLW - HTMl, CSS und JavaScript",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garciacello/Ecoleta.git"
+  },
+  "keywords": [],
+  "author": "Joao Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garciacello/Ecoleta/issues"
+  },
+  "homepage": "https://github.com/garciacello/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
